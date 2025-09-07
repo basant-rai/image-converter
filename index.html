@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <!-- Basic Meta -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Image Converter & Compressor – Convert, Compress & Optimize Images Online</title>
@@ -12,6 +13,9 @@
   <meta name="author" content="Your Name or Brand">
   <meta name="robots" content="index, follow">
 
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://yourdomain.com">
+
   <!-- Open Graph / Facebook -->
   <meta property="og:title" content="Image Converter & Compressor – Convert, Compress & Optimize Images Online">
   <meta property="og:description"
@@ -19,6 +23,7 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://yourdomain.com">
   <meta property="og:image" content="https://yourdomain.com/preview-image.jpg">
+  <meta property="og:site_name" content="Image Converter & Compressor">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
@@ -26,12 +31,50 @@
   <meta name="twitter:description"
     content="Easily convert and compress images online. Supports JPG, PNG, WEBP, AVIF, GIF. Reduce image size, change format, and optimize for web.">
   <meta name="twitter:image" content="https://yourdomain.com/preview-image.jpg">
+  <meta name="twitter:creator" content="@yourTwitterHandle">
 
-  <!-- Favicon -->
+  <!-- Favicons -->
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 
+  <!-- Theme & Browser Hints -->
+  <meta name="theme-color" content="#0b1020">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
+  <!-- Preconnect / Preload for fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+  <link rel="preload" as="font" href="https://fonts.gstatic.com/s/opensans/v34/mem8YaGs126MiZpBA-UFVZ0e.ttf"
+    crossorigin>
+
+  <!-- Performance / SEO hints -->
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  <link rel="dns-prefetch" href="//fonts.gstatic.com">
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Image Converter & Compressor",
+    "url": "https://yourdomain.com",
+    "applicationCategory": "ImageProcessingApplication",
+    "description": "Convert and compress images online. Supports JPG, PNG, WEBP, AVIF, GIF. Reduce file size and optimize images for web.",
+    "operatingSystem": "Web",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    }
+  }
   </script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800display=swap"
@@ -262,22 +305,7 @@
       font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     }
   </style>
-  <!-- Structured Data (JSON-LD) -->
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebApplication",
-  "name": "Image Converter & Compressor",
-  "url": "https://yourdomain.com",
-  "applicationCategory": "ImageProcessingApplication",
-  "description": "Convert and compress images online. Supports JPG, PNG, WEBP, AVIF, GIF. Reduce file size and optimize images for web.",
-  "operatingSystem": "Web",
-  "offers": {
-    "@type": "Offer",
-    "price": "0",
-    "priceCurrency": "USD"
-  }
-}
+
 </head>
 
 <body>
@@ -566,6 +594,6 @@
 
     function clearOutput() { outBox.hidden = true; outImg.src = ''; btnDownload.disabled = true; outputBlob = null; }
   </script>
-  </body>
+</body>
 
 </html>
